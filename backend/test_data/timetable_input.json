@@ -1,0 +1,45 @@
+{
+  "teachers": ["T1", "T2", "T3"],
+  "classes": ["Section1", "Section2", "Section3", "Section4", "Section5", "Section6"],
+  "subjects": ["Physics", "Physics Lab", "Math", "Chemistry"],
+  "rooms": {
+    "Lab1": {"capacity": 30, "type": "lab"},
+    "Room1": {"capacity": 40, "type": "theory"},
+    "Room2": {"capacity": 35, "type": "theory"}
+  },
+  "time_slots": [
+    "Mon-9AM", "Mon-10AM", "Mon-11AM", 
+    "Tue-9AM", "Tue-10AM", "Tue-11AM",
+    "Wed-9AM", "Wed-10AM", "Wed-11AM"
+  ],
+  "subject_credits": {
+    "Physics": 3,
+    "Physics Lab": 1,
+    "Math": 4,
+    "Chemistry": 3
+  },
+  "teacher_qualifications": {
+    "T1": ["Physics", "Physics Lab"],
+    "T2": ["Math"],
+    "T3": ["Chemistry"]
+  },
+  "subject_room_requirements": {
+    "Physics": "theory",
+    "Physics Lab": "lab",
+    "Math": "theory",
+    "Chemistry": "theory"
+  },
+  "subject_prerequisites": {
+    "Physics Lab": ["Physics"]
+  },
+  "class_sizes": {
+    "Section1": 25,
+    "Section2": 30,
+    "Section3": 20,
+    "Section4": 28,
+    "Section5": 22,
+    "Section6": 25
+  },
+  "teacher_max_daily_load": 4,
+  "max_attempts": 200
+}
