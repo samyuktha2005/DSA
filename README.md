@@ -21,6 +21,17 @@ The **React frontend** provides an intuitive UI for students and admins to inter
 - **Version Control**: Git & GitHub  
 
 ---
+---
+
+## 🔄 Workflow / Algorithm Flow
+
+The project workflow ensures **automatic timetable generation** using a sequence of steps involving DSA algorithms.  
+
+<img width="5187" height="1257" alt="block diagram" src="https://github.com/user-attachments/assets/024203b4-9d99-4fcf-aaee-edcdb013ac34" />
+
+
+---
+
 
 ## 📂 Project Structure
 ```
